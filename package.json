@@ -11,7 +11,7 @@
     "build:href": "vite build --base ./",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",
     "delete:docs": "del docs && mkdir docs",
-    "copy:dist": "copyfiles dist/**/* ./docs -f"
+    "copy:dist": "copyfiles dist/02-tictactoe/* ./docs -f"
   },
   "dependencies": {
     "canvas-confetti": "1.6.0",
